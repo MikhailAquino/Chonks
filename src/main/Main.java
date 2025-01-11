@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     private static final List<String> keywords = List.of("ask", "call", "chunk", "end", "flag",

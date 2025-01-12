@@ -3,7 +3,7 @@ import java.util.List;
 
 public class LexicalAnalyzer {
     private static final List<String> keywords = List.of("ask", "call", "chunk", "end", "flag",
-            "num", "show", "start", "tic", "txt", "delay", "loc", "ret", "swap", "cycle", "toggle");
+            "num", "show", "start", "tic", "txt", "delay", "loc", "ret", "swap", "cycle", /*"toggle",*/ "open", "locked", "bricked", "core");
     private static final List<String> operators = List.of("=", "+=", "-=", "*=", "/=", "%=", "~=",
             "+", "-", "*", "/", "%", "*^", "&&", "||", "!", "==", "!=", "<", ">", "<=", ">=");
     private static final List<Character> delimiters = List.of(';', '{', '}', '(', ')', '[', ']', ',');
